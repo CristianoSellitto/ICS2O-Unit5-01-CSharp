@@ -11,8 +11,8 @@ class Program
         int choice;
         int randomnumber;
 
-        System.Random random = new System.Random(); 
-        randomnumber = random.Next(1,6);
+        System.Random random = new System.Random();
+        randomnumber = random.Next(1, 6);
         // Console.WriteLine("For debugging, the random number is " + randomnumber + ".");
         Console.Write("Pick a number from 1 to 6: ");
         choice = Convert.ToInt32(Console.ReadLine());
